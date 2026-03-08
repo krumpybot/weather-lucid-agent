@@ -18,7 +18,7 @@ const agent = await createAgent({
           process.env.PAY_TO_ADDRESS ||
           '0x71A2CED2074F418f4e68a0A196FF3C1e59Beb32E',
         network: 'eip155:8453',
-        facilitatorUrl: 'https://facilitator.xgate.run',
+        facilitatorUrl: 'https://facilitator.daydreams.systems',
       },
     })
   )
