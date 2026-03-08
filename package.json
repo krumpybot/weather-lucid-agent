@@ -1,0 +1,18 @@
+{
+  "name": "weather-lucid-agent",
+  "version": "1.0.0",
+  "description": "Weather lookup Lucid Agent with x402 payments - Built via TaskMarket bounty",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "dev": "bun --watch src/index.ts"
+  },
+  "dependencies": {
+    "@lucid-agents/core": "latest",
+    "@lucid-agents/hono": "latest",
+    "@lucid-agents/http": "latest",
+    "@lucid-agents/payments": "latest",
+    "hono": "^4.0.0",
+    "zod": "^3.22.0"
+  }
+}
